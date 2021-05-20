@@ -83,12 +83,12 @@ popup()
 ```
 
 ## Функции
-```javascript popup() ``` - основная функция-коллекция для других функций.
+```popup()``` - основная функция-коллекция для других функций.
 
-```javascript popup().oneButtonWindow( ```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
+```popup().oneButtonWindow(```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
 для создания всплывающего окна с текстом и одной кнопкой с привязанной функцией.
 
-``` popup().twoButtonsWindow( ```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
+```popup().twoButtonsWindow(```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
 для создания всплывающего окна с текстом и двумя кнопками с привязанными функциями.
 
 
