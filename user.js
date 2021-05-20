@@ -1,5 +1,5 @@
-library()
-    .popupWindowTwoButtons("#window1",
+popup()
+    .twoButtons("#window1",
         ".ask",
         ".accept",
         function (){
@@ -12,8 +12,8 @@ library()
         ".text")
 
 
-library()
-    .popupWindowOneButton("#window2",
+popup()
+    .oneButton("#window2",
         ".ask",
         ".button",
         function () {
@@ -22,8 +22,8 @@ library()
         ".text");
 
 
-library()
-    .popupWindowInput("#window3",
+popup()
+    .input("#window3",
         ".event",
         ".submit",
         function () {

@@ -23,7 +23,7 @@ const popupWindowFlexBoxStyleAndWrap = "<div class='popupWindowFlexBox' style='p
             .css("margin", "30px");
     }
     return {
-        TwoButtons: function (window, eventButton, firstClickElem, firstClickElemFunc, secondClickElem, secondClickElemFunc, text) {
+        twoButtons: function (window, eventButton, firstClickElem, firstClickElemFunc, secondClickElem, secondClickElemFunc, text) {
 
             //найти все элементы в DOC
             let _window = $(window);
@@ -120,7 +120,7 @@ const popupWindowFlexBoxStyleAndWrap = "<div class='popupWindowFlexBox' style='p
 
             }
         },
-        OneButton: function (window, eventButton, oneClickElem, oneClickElemFunc, text) {
+        oneButton: function (window, eventButton, oneClickElem, oneClickElemFunc, text) {
             //найти все элементы в DOC
             let _window = $(window);
             let _eventButton = $(window + " " + eventButton);
@@ -198,7 +198,7 @@ const popupWindowFlexBoxStyleAndWrap = "<div class='popupWindowFlexBox' style='p
 
             }
         },
-        Input: function (window, eventButton, submitClickElem, onsubmitClickFunc, inputElem, text) {
+        input: function (window, eventButton, submitClickElem, onsubmitClickFunc, inputElem, text) {
             //найти все элементы в DOC
             let _window = $(window);
             let _eventButton = $(window + " " + eventButton);
