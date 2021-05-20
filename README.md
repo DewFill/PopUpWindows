@@ -2,10 +2,10 @@
 ### Реально нереальная библиотека для добавления всплывающих окон на вашем сайте.
 ## Подключение
 ```
-<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-<script src="https://dewfill.com/libraries/popupwindows/script.js"></script>
-<link rel="stylesheet" href="https://dewfill.com/libraries/popupwindows/style.css">
-<script src="user.js"></script>
+    <link rel="stylesheet" href="https://dewfill.com/libraries/popupwindows/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="script.js"></script>
+    <script src="user.js"></script>
 ```
 > Последний скрипт хранится локально и является настройками для кнопок.
 
