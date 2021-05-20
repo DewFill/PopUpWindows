@@ -1,3 +1,4 @@
+let test;
 popup()
     .twoButtons("#window1",
         ".ask",
