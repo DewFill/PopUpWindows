@@ -1,5 +1,4 @@
  let popup = function () {
-    let test;
         const popupWindowFlexBoxStyleAndWrap = "<div class='popupWindowFlexBox' style='position: fixed; margin: 0; padding: 0; box-sizing: border-box; width: 100vw; height: 100vh; left: 0; top: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; flex-flow: column wrap; background-color: rgba(0,0,0,0.7);'></div>"
         function windowStyles(window) {
             jQuery(function () {
