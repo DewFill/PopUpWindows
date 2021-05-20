@@ -1,5 +1,6 @@
 # PopUpWindowsLibrary
 ### Реально нереальная библиотека для добавления всплывающих окон на вашем сайте.
+###### Пример: https://dewfill.com/libraries/popup/index.html
 ## Подключение
 ```
     <link rel="stylesheet" href="https://dewfill.com/libraries/popupwindows/style.css">
@@ -8,6 +9,7 @@
     <script src="user.js"></script>
 ```
 > Последний скрипт хранится локально и является настройками для кнопок.
+>>Поместите его перед закрывающимся тегом body или добавьте ```jQuery(function () {```тут ваш код```}```
 
 ## Примеры
 ### Окно с текстом и одной кнопкой
