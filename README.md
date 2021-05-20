@@ -3,9 +3,9 @@
 ###### Пример: https://dewfill.com/libraries/popup/
 ## Подключение
 ```
-    <link rel="stylesheet" href="https://dewfill.com/libraries/popupwindows/style.css">
+    <link rel="stylesheet" href="https://dewfill.com/libraries/popup/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="script.js"></script>
+    <script src="https://dewfill.com/libraries/popup/script.js"></script>
     <script src="user.js"></script>
 ```
 > Последний скрипт хранится локально и является настройками для кнопок.
