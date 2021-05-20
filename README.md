@@ -1,4 +1,4 @@
-# PopUpWindowsLibrary
+# PopUp Window Library
 ### Реально нереальная библиотека для добавления всплывающих окон на вашем сайте.
 ###### Пример: https://dewfill.com/libraries/popup/
 ## Подключение
