@@ -20,7 +20,7 @@
 </div>
 ```
 #### JavaScript
-```
+```javascript
 popup()
     .oneButtonWindow("#window1",
         ".ask",
@@ -42,7 +42,7 @@ popup()
 </div>
 ```
 #### JavaScript
-```
+```javascript
 popup()
     .twoButtonsWindow("#window2",
         ".ask",
@@ -70,7 +70,7 @@ popup()
 </div>
 ```
 #### JavaScript
-```
+```javascript
 popup()
     .inputWindow("#window3",
         ".event",
