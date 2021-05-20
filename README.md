@@ -12,7 +12,7 @@
 ## Примеры
 ### Окно с текстом и одной кнопкой
 ##### HTML
-```
+```html
 <div id="window1" class="window">
     <p class="text">Вам пришло сообщение</p>
     <button class="ask">1 BUTTON</button>
@@ -33,7 +33,7 @@ popup()
 ***
 ### Окно с текстом и двумя кнопками
 ##### HTML
-```
+```html
 <div id="window2" class="window">
     <p class="text">Подтвердить действие?</p>
     <button class="ask">2 BUTTONS</button>
@@ -59,7 +59,7 @@ popup()
 ***
 ### Окно с текстом, интупом и кнопкой отправки
 ##### HTML
-```
+```html
 <div id="window3" class="window">
     <p class="text">Введите имя:</p>
     <label>
@@ -83,9 +83,9 @@ popup()
 ```
 
 ## Функции
-``` popup() ``` - основная функция-коллекция для других функций.
+```javascript popup() ``` - основная функция-коллекция для других функций.
 
-``` popup().oneButtonWindow( ```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
+```javascript popup().oneButtonWindow( ```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
 для создания всплывающего окна с текстом и одной кнопкой с привязанной функцией.
 
 ``` popup().twoButtonsWindow( ```*unique* **selector**, **selector**, **selector**, **function**, **selector**```);``` - функция
